@@ -1,0 +1,846 @@
+<!DOCTYPE html>
+<!--[if IE 8]>
+    <html class="no-js lt-ie9" lang="en" ng-app="pluralsightModule">
+<![endif]-->
+<!--[if gt IE 8]><!-->
+<html class="no-js" lang="en" ng-app="pluralsightModule" id="ng-app">
+<!--<![endif]-->
+<head>
+    <meta charset="utf-8" http-equiv="Content-type" content="text/html;" /><script type="text/javascript">window.NREUM||(NREUM={});NREUM.info = {"beacon":"bam.nr-data.net","errorBeacon":"bam.nr-data.net","licenseKey":"2700af8a3c","applicationID":"7609102,7609308","transactionName":"Z1ZRN0EDCEMDABVYWl4cZhFaTTRfDRc=","queueTime":0,"applicationTime":1,"ttGuid":"464F200AA2B9617","agent":"js-agent.newrelic.com/nr-632.min.js"}</script><script type="text/javascript">window.NREUM||(NREUM={}),__nr_require=function(e,n,t){function r(t){if(!n[t]){var o=n[t]={exports:{}};e[t][0].call(o.exports,function(n){var o=e[t][1][n];return r(o?o:n)},o,o.exports)}return n[t].exports}if("function"==typeof __nr_require)return __nr_require;for(var o=0;o<t.length;o++)r(t[o]);return r}({QJf3ax:[function(e,n){function t(e){function n(n,t,a){e&&e(n,t,a),a||(a={});for(var u=c(n),f=u.length,s=i(a,o,r),p=0;f>p;p++)u[p].apply(s,t);return s}function a(e,n){f[e]=c(e).concat(n)}function c(e){return f[e]||[]}function u(){return t(n)}var f={};return{on:a,emit:n,create:u,listeners:c,_events:f}}function r(){return{}}var o="nr@context",i=e("gos");n.exports=t()},{gos:"7eSDFh"}],ee:[function(e,n){n.exports=e("QJf3ax")},{}],3:[function(e,n){function t(e){return function(){r(e,[(new Date).getTime()].concat(i(arguments)))}}var r=e("handle"),o=e(1),i=e(2);"undefined"==typeof window.newrelic&&(newrelic=window.NREUM);var a=["setPageViewName","addPageAction","setCustomAttribute","finished","addToTrace","inlineHit","noticeError"];o(a,function(e,n){window.NREUM[n]=t("api-"+n)}),n.exports=window.NREUM},{1:12,2:13,handle:"D5DuLP"}],"7eSDFh":[function(e,n){function t(e,n,t){if(r.call(e,n))return e[n];var o=t();if(Object.defineProperty&&Object.keys)try{return Object.defineProperty(e,n,{value:o,writable:!0,enumerable:!1}),o}catch(i){}return e[n]=o,o}var r=Object.prototype.hasOwnProperty;n.exports=t},{}],gos:[function(e,n){n.exports=e("7eSDFh")},{}],handle:[function(e,n){n.exports=e("D5DuLP")},{}],D5DuLP:[function(e,n){function t(e,n,t){return r.listeners(e).length?r.emit(e,n,t):(o[e]||(o[e]=[]),void o[e].push(n))}var r=e("ee").create(),o={};n.exports=t,t.ee=r,r.q=o},{ee:"QJf3ax"}],id:[function(e,n){n.exports=e("XL7HBI")},{}],XL7HBI:[function(e,n){function t(e){var n=typeof e;return!e||"object"!==n&&"function"!==n?-1:e===window?0:i(e,o,function(){return r++})}var r=1,o="nr@id",i=e("gos");n.exports=t},{gos:"7eSDFh"}],G9z0Bl:[function(e,n){function t(){var e=d.info=NREUM.info,n=f.getElementsByTagName("script")[0];if(e&&e.licenseKey&&e.applicationID&&n){c(p,function(n,t){n in e||(e[n]=t)});var t="https"===s.split(":")[0]||e.sslForHttp;d.proto=t?"https://":"http://",a("mark",["onload",i()]);var r=f.createElement("script");r.src=d.proto+e.agent,n.parentNode.insertBefore(r,n)}}function r(){"complete"===f.readyState&&o()}function o(){a("mark",["domContent",i()])}function i(){return(new Date).getTime()}var a=e("handle"),c=e(1),u=(e(2),window),f=u.document,s=(""+location).split("?")[0],p={beacon:"bam.nr-data.net",errorBeacon:"bam.nr-data.net",agent:"js-agent.newrelic.com/nr-632.min.js"},d=n.exports={offset:i(),origin:s,features:{}};f.addEventListener?(f.addEventListener("DOMContentLoaded",o,!1),u.addEventListener("load",t,!1)):(f.attachEvent("onreadystatechange",r),u.attachEvent("onload",t)),a("mark",["firstbyte",i()])},{1:12,2:3,handle:"D5DuLP"}],loader:[function(e,n){n.exports=e("G9z0Bl")},{}],12:[function(e,n){function t(e,n){var t=[],o="",i=0;for(o in e)r.call(e,o)&&(t[i]=n(o,e[o]),i+=1);return t}var r=Object.prototype.hasOwnProperty;n.exports=t},{}],13:[function(e,n){function t(e,n,t){n||(n=0),"undefined"==typeof t&&(t=e?e.length:0);for(var r=-1,o=t-n||0,i=Array(0>o?0:o);++r<o;)i[r]=e[n+r];return i}n.exports=t},{}]},{},["G9z0Bl"]);</script><script type="text/javascript">window.NREUM||(NREUM={});NREUM.info = {"beacon":"bam.nr-data.net","errorBeacon":"bam.nr-data.net","licenseKey":"2700af8a3c","applicationID":"7609102,7609308","transactionName":"Z1ZRN0EDCEMDABVYWl4cfjVwTS5fDwYiXltEQVwPXwcUHysNBVRN","queueTime":0,"applicationTime":2,"ttGuid":"72E1F54C9F0B6B9D","agent":"js-agent.newrelic.com/nr-632.min.js"}</script><script type="text/javascript">window.NREUM||(NREUM={}),__nr_require=function(e,n,t){function r(t){if(!n[t]){var o=n[t]={exports:{}};e[t][0].call(o.exports,function(n){var o=e[t][1][n];return r(o?o:n)},o,o.exports)}return n[t].exports}if("function"==typeof __nr_require)return __nr_require;for(var o=0;o<t.length;o++)r(t[o]);return r}({QJf3ax:[function(e,n){function t(e){function n(n,t,a){e&&e(n,t,a),a||(a={});for(var u=c(n),f=u.length,s=i(a,o,r),p=0;f>p;p++)u[p].apply(s,t);return s}function a(e,n){f[e]=c(e).concat(n)}function c(e){return f[e]||[]}function u(){return t(n)}var f={};return{on:a,emit:n,create:u,listeners:c,_events:f}}function r(){return{}}var o="nr@context",i=e("gos");n.exports=t()},{gos:"7eSDFh"}],ee:[function(e,n){n.exports=e("QJf3ax")},{}],3:[function(e,n){function t(e){return function(){r(e,[(new Date).getTime()].concat(i(arguments)))}}var r=e("handle"),o=e(1),i=e(2);"undefined"==typeof window.newrelic&&(newrelic=window.NREUM);var a=["setPageViewName","addPageAction","setCustomAttribute","finished","addToTrace","inlineHit","noticeError"];o(a,function(e,n){window.NREUM[n]=t("api-"+n)}),n.exports=window.NREUM},{1:12,2:13,handle:"D5DuLP"}],"7eSDFh":[function(e,n){function t(e,n,t){if(r.call(e,n))return e[n];var o=t();if(Object.defineProperty&&Object.keys)try{return Object.defineProperty(e,n,{value:o,writable:!0,enumerable:!1}),o}catch(i){}return e[n]=o,o}var r=Object.prototype.hasOwnProperty;n.exports=t},{}],gos:[function(e,n){n.exports=e("7eSDFh")},{}],handle:[function(e,n){n.exports=e("D5DuLP")},{}],D5DuLP:[function(e,n){function t(e,n,t){return r.listeners(e).length?r.emit(e,n,t):(o[e]||(o[e]=[]),void o[e].push(n))}var r=e("ee").create(),o={};n.exports=t,t.ee=r,r.q=o},{ee:"QJf3ax"}],id:[function(e,n){n.exports=e("XL7HBI")},{}],XL7HBI:[function(e,n){function t(e){var n=typeof e;return!e||"object"!==n&&"function"!==n?-1:e===window?0:i(e,o,function(){return r++})}var r=1,o="nr@id",i=e("gos");n.exports=t},{gos:"7eSDFh"}],G9z0Bl:[function(e,n){function t(){var e=d.info=NREUM.info,n=f.getElementsByTagName("script")[0];if(e&&e.licenseKey&&e.applicationID&&n){c(p,function(n,t){n in e||(e[n]=t)});var t="https"===s.split(":")[0]||e.sslForHttp;d.proto=t?"https://":"http://",a("mark",["onload",i()]);var r=f.createElement("script");r.src=d.proto+e.agent,n.parentNode.insertBefore(r,n)}}function r(){"complete"===f.readyState&&o()}function o(){a("mark",["domContent",i()])}function i(){return(new Date).getTime()}var a=e("handle"),c=e(1),u=(e(2),window),f=u.document,s=(""+location).split("?")[0],p={beacon:"bam.nr-data.net",errorBeacon:"bam.nr-data.net",agent:"js-agent.newrelic.com/nr-632.min.js"},d=n.exports={offset:i(),origin:s,features:{}};f.addEventListener?(f.addEventListener("DOMContentLoaded",o,!1),u.addEventListener("load",t,!1)):(f.attachEvent("onreadystatechange",r),u.attachEvent("onload",t)),a("mark",["firstbyte",i()])},{1:12,2:3,handle:"D5DuLP"}],loader:[function(e,n){n.exports=e("G9z0Bl")},{}],12:[function(e,n){function t(e,n){var t=[],o="",i=0;for(o in e)r.call(e,o)&&(t[i]=n(o,e[o]),i+=1);return t}var r=Object.prototype.hasOwnProperty;n.exports=t},{}],13:[function(e,n){function t(e,n,t){n||(n=0),"undefined"==typeof t&&(t=e?e.length:0);for(var r=-1,o=t-n||0,i=Array(0>o?0:o);++r<o;)i[r]=e[n+r];return i}n.exports=t},{}]},{},["G9z0Bl"]);</script>
+    <meta name="viewport" content="width=device-width" />
+    <meta name="fragment" content="!" />
+    <title>Pluralsight – Developer, IT &amp; Creative Training by Pros</title>
+    <link rel="stylesheet" href="//s.pluralsight.com/sc/css/app-a91c1553.cgz" />
+    <link rel="stylesheet" href="//www.pluralsight.com/content/dist/css/fonts-a9675ca7.css" />
+    <link rel="stylesheet" type="text/css" href="//cloud.typography.com/6966154/691568/css/fonts.css" />
+
+    <!--[if lte IE 9]>
+        <link rel="stylesheet" href="//s.pluralsight.com/sc/css/ie-app-d553bfa4.css" />
+    <![endif]-->
+    <!--[if IE 8]>
+         <link rel="stylesheet" href="//s.pluralsight.com/sc/css/ie8-62d3a852.css" />
+      <![endif]-->
+    <!--[if IE]>
+        <link rel="stylesheet" href="//s.pluralsight.com/sc/css/ie-7dd5dc87.css" />
+    <![endif]-->
+
+    <script src="//s.pluralsight.com/sc/js/vendor/custom.modernizr-b4b7741a.js"></script>
+
+    
+    <meta name="description" content="Unlimited online developer, IT and creative courses, starting at $29 per month with new training daily. Courses authored by top industry experts on the most in-demand skills.">
+
+    
+
+
+    
+    <script src="//cdn.optimizely.com/js/1252788015.js"></script>
+
+</head>
+<body>
+    <!-- Google Tag Manager -->
+<noscript>
+    <iframe src="//www.googletagmanager.com/ns.html?id=GTM-MNK9CB" height="0" width="0" style="display:none;visibility:hidden"></iframe>
+</noscript>
+<script>
+    (function (w, d, s, l, i) {
+        w[l] = w[l] || [];
+        w[l].push({ 'gtm.start': new Date().getTime(), event: 'gtm.js' });
+        var f = d.getElementsByTagName(s)[0],
+            j = d.createElement(s),
+            dl = l != 'dataLayer' ? '&l=' + l : '';
+        j.async = true;
+        j.src = '//www.googletagmanager.com/gtm.js?id=' + i + dl;
+        f.parentNode.insertBefore(j, f);
+    })(window, document, 'script', 'dataLayer', 'GTM-MNK9CB');
+</script>
+<!-- End Google Tag Manager -->
+
+    <input type="hidden" id="pageObjectTag" value="HomePage" />
+    <div ng-controller="AuthenticationController">
+        <div ng-include src="'/header'"></div>
+
+        
+
+
+
+<span ng-init="showNewDesign = false"></span>
+<div class="homepage-a" ng-show="isUnAuthenticated() && showNewDesign" ng-cloak>
+    <section class="laptop-bg hero">
+        <div class="row">
+            <div class="large-1 column">&nbsp;</div>
+            <div class="large-12 small-12 columns">
+                <div ng-cloak>
+                    <h1 class="hero-title text-center">Learn something new. Every day.</h1>
+                    <p class="hero-content text-center">Dive into the largest online library of dev, IT & creative training.</p>
+                </div>
+                <div class="plans" ng-cloak>
+                    <div class="row">
+                        <div class="plan-panel teal-bg-transparent large-23-48 large-offset-0 columns small-8 small-offset-2">
+                            <h3 class="text-left">Individual Plans</h3>
+                            <div class="text-left">Give your career a serious boost with 3,500+ courses.</div>
+                            <div class="large-12 columns signup-buttons">
+                                <div class="large-4 columns collapse"><a href="//www.pluralsight.com/signup" class="orange button">Sign up <span class="hide-for-medium">now</span></a></div>
+                                <div class="large-8 columns collapse free-trial-button"><a href="//www.pluralsight.com/signup?ft=1" class="pip-large button white">Start your 10-day free trial</a></div>
+                            </div>
+                        </div>
+                        <div class="plan-panel green-br-transparent large-23-48 large-offset-2-48 columns small-8 small-offset-2">
+                            <h3 class="text-left">Group plans</h3>
+                            <div>Empower your team with courses on the latest tech.</div>
+                            <div class="large-12 columns signup-buttons">
+                                <a href="//www.pluralsight.com/business" class="orange button">Learn more</a>
+                            </div>
+                        </div>
+                        <div class="small-2"></div>
+                    </div>
+                </div>
+            </div>
+            <div class="large-1 column">&nbsp;</div>
+        </div>
+        <div class="row">
+            <div class="large-12 light columns text-center tech-copy">
+                Training on the most in-demand skills of today.
+            </div>
+        </div>
+        <div class="row">
+            <div class="large-6 small-12 columns text-center tech-logos">
+                <div class="large-4 small-4 columns text-center tech-logo">
+                    <img src="//s.pluralsight.com/sc/img/home/microsoft_logo-v1.png" alt="Microsoft" />
+                </div>
+                <div class="large-4 small-4 columns text-center tech-logo">
+                    <img src="//s.pluralsight.com/sc/img/home/adobe-logo-v1.png" alt="Adobe" />
+                </div>
+                <div class="large-4 small-4 columns text-center tech-logo">
+                    <img src="//s.pluralsight.com/sc/img/home/angular_logo-v1.png" alt="Angular" />
+                </div>
+            </div>
+            <div class="large-6 small-12 columns text-center tech-logos">
+                <div class="large-4 small-4 columns text-center tech-logo">
+                    <img src="//s.pluralsight.com/sc/img/home/amazon_logo-v1.png" alt="Amazon" />
+                </div>
+                <div class="large-4 small-4 columns text-center tech-logo">
+                    <img src="//s.pluralsight.com/sc/img/home/vmware_logo-v1.png" alt="vmware" />
+                </div>
+                <div class="large-4 small-4 columns text-center tech-logo">
+                    <img src="//s.pluralsight.com/sc/img/home/comptia_logo-v1.png" alt="CompTIA" />
+                </div>
+            </div>
+        </div>
+    </section>
+    <section class="light-gray-bg band interest-band">
+        <div class="row">
+            <div class="large-12 columns text-center">
+                <h2 class="light">What are you interested in?</h2>
+            </div>
+        </div>
+        <div class="row interest-buttons center">
+            <div class="large-4 columns">
+                <a class="button light large teal" href="tag/developer">Developer courses</a>
+            </div>
+            <div class="large-4 columns">
+                <a class="button light large green" href="tag/admin">IT courses</a>
+            </div>
+            <div class="large-4 columns left">
+                <a class="button light large orange" href="//www.pluralsight.com/tag/creative">Creative courses</a>
+            </div>
+        </div>
+    </section>
+</div>
+
+<section class="laptop-bg hero" ng-hide="isUnAuthenticated() && showNewDesign" ng-cloak>
+    <div class="row">
+        <div class="large-1 column">&nbsp;</div>
+        <div class="large-10 small-12 columns">
+            <div ng-switch="isAuthenticated()" ng-cloak>
+                <div ng-switch-when="false">
+                    <h1 class="hero-title text-center">Unlock access to the world's largest tech &amp; creative training library</h1>
+                </div>
+                <div ng-switch-when="true">
+                    <h1 class="hero-title text-center search-library">Search the world's largest tech &amp; creative training library</h1>
+                    <div class="columns large-12">
+                        <span class="search-home">
+                            <search></search>
+                        </span>
+                    </div>
+                </div>
+            </div>
+
+            <div class="signup-buttons text-center" ng-show="isUnAuthenticated()" ng-cloak>
+                <a href="//www.pluralsight.com/signup" class="orange button">Sign up now</a>
+                <a href="//www.pluralsight.com/signup?ft=1" class="pip-large button white">Start your 10-day free trial</a>
+            </div>
+        </div>
+        <div class="large-1 column">&nbsp;</div>
+    </div>
+</section>
+
+<section class="slate-bg strip" ng-cloak ng-show="isUnAuthenticated() && !showNewDesign">
+    <div class="row">
+        <div class="large-4 columns">
+            <h4 class="orange individual">
+                <a href="//www.pluralsight.com/signup">
+                    <img class="glyph" src="//s.pluralsight.com/sc/img/glyphs/individual-v3.png" />
+                    I'm an <strong>individual</strong> &raquo;
+                </a>
+            </h4>
+        </div>
+        <div class="large-4 columns">
+            <h4 class="green business">
+                <a href="//www.pluralsight.com/business">
+                    <img class="glyph" src="//s.pluralsight.com/sc/img/glyphs/business-v3.png" />
+                    I'm a <strong>business</strong> &raquo;
+                </a>
+            </h4>
+        </div>
+        <div class="large-4 columns">
+            <h4 class="teal school">
+                <a href="//www.pluralsight.com/academic">
+                    <img class="glyph" src="//s.pluralsight.com/sc/img/glyphs/school-v3.png" />
+                    I'm a <strong>school</strong> &raquo;
+                </a>
+            </h4>
+        </div>
+    </div>
+</section>
+
+<section class="paths" ng-show="isAuthenticated() || !showNewDesign" ng-cloak>
+    <div class="blocks">
+        <div class="row">
+            <div class="large-3 columns">
+                <a href="tag/developer">
+                    <div class="cellpanel software-developer">
+                        <div class="tall cell"><h3>Software developer</h3></div>
+                    </div>
+                </a>
+            </div>
+            <div class="large-9 columns">
+                <div class="row">
+                    <div class="large-4 small-6 columns">
+                        <a href="tag/spotlight">
+                            <div class="cellpanel spotlight">
+                                <div class="short cell"><h3>Spotlighted courses</h3></div>
+                            </div>
+                        </a>
+                    </div>
+                    <div class="large-4 small-6 columns">
+                        <a href="tag/admin">
+                            <div class="cellpanel it-administrator">
+                                <div class="short cell"><h3>IT administrator</h3></div>
+                            </div>
+                        </a>
+                    </div>
+                    <div class="large-4 columns">
+                        <a href="http://blog.pluralsight.com/category/learning-paths">
+                            <div class="cellpanel learning-paths">
+                                <div class="short cell"><h3>Learning paths</h3></div>
+                            </div>
+                        </a>
+                    </div>
+                </div>
+                <div class="row">
+                    <div class="large-4 small-6 columns">
+                        <a href="/authors" id="ui-authors">
+                            <div class="cellpanel author-spotlight">
+                                <div class="short cell"><h3>Our authors</h3></div>
+                            </div>
+                        </a>
+                    </div>
+                    <div class="large-8 small-6 columns">
+                        <a href="//www.pluralsight.com/tag/creative">
+                            <div class="cellpanel creative-professional">
+                                <div class="short cell"><h3>Creative professional</h3></div>
+                            </div>
+                        </a>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div class="row" ng-show="isUnAuthenticated()" ng-cloak>
+            <div class="large-12 columns">
+                <a ng-click="showTopTags = !showTopTags">
+                    <div class="cellpanel menu">
+                        <h5 class="text-center">Browse tags <span style="color: #eb5417; font-weight: bold;">»</span></h5>
+                    </div>
+                </a>
+            </div>
+        </div>
+        <div id="curatedTags" class="curated-tags" ng-show="showTopTags || isAuthenticated()" ng-cloak>
+            <div class="row">
+                <div style="padding: 0 5px 0 5px;">
+                    <div class="column border">
+                        <div class="row">
+                            <div class="large-4 columns">
+                                <a href="tag/microsoft"><h5>Microsoft</h5></a>
+                            </div>
+                            <div class="large-4 columns">
+                                <a href="tag/networking"><h5>Networking</h5></a>
+                            </div>
+                            <div class="large-4 columns">
+                                <a href="tag/social-media"><h5>Social media</h5></a>
+                            </div>
+                        </div>
+                        <div class="row">
+                            <div class="large-4 columns">
+                                <a href="tag/open-source"><h5>Open source</h5></a>
+                            </div>
+                            <div class="large-4 columns">
+                                <a href="tag/programming-languages"><h5>Programming languages</h5></a>
+                            </div>
+                            <div class="large-4 columns">
+                                <a href="tag/hardware"><h5>Hardware</h5></a>
+                            </div>
+                        </div>
+                        <div class="row">
+                            <div class="large-4 columns">
+                                <a href="tag/virtualization"><h5>Virtualization</h5></a>
+                            </div>
+                            <div class="large-4 columns">
+                                <a href="tag/mobile"><h5>Mobile</h5></a>
+                            </div>
+                            <div class="large-4 columns">
+                                <a href="tag/c%23"><h5>C#</h5></a>
+                            </div>
+                        </div>
+                        <div class="row">
+                            <div class="large-4 columns">
+                                <a href="tag/web"><h5>Web</h5></a>
+                            </div>
+                            <div class="large-4 columns">
+                                <a href="tag/data"><h5>Data</h5></a>
+                            </div>
+                            <div class="large-4 columns">
+                                <a href="tag/developer-tools"><h5>Developer tools</h5></a>
+                            </div>
+                        </div>
+                        <div class="row">
+                            <div class="large-4 columns">
+                                <a href="tag/server"><h5>Server</h5></a>
+                            </div>
+                            <div class="large-4 columns">
+                                <a href="tag/oracle"><h5>Oracle</h5></a>
+                            </div>
+                            <div class="large-4 columns">
+                                <a href="tag/java"><h5>Java</h5></a>
+                            </div>
+                        </div>
+                        <div class="row">
+                            <div class="large-4 columns">
+                                <a href="tag/javascript"><h5>JavaScript</h5></a>
+                            </div>
+                            <div class="large-4 columns">
+                                <a href="tag/security"><h5>Security</h5></a>
+                            </div>
+                            <div class="large-4 columns">
+                                <a href="tag/.net"><h5>.NET</h5></a>
+                            </div>
+                        </div>
+                        <div class="row">
+                            <div class="large-4 columns">
+                                <a href="tag/content-management-system"><h5>Content management system</h5></a>
+                            </div>
+                            <div class="large-4 columns">
+                                <a href="tag/beginner-programming"><h5>Beginner programming</h5></a>
+                            </div>
+                            <div class="large-4 columns">
+                                <a href="tag/software-practices"><h5>Software practices</h5></a>
+                            </div>
+                        </div>
+                        <div class="row">
+                            <div class="columns" style="height: 15px"></div>
+                        </div>
+                        <div class="row">
+                            <div class="column flyout-panel">
+                                <a href="tags"><h5>Click here to view all tags</h5></a>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+
+</section>
+
+<div ng-show="isUnAuthenticated()" ng-cloak>
+    <!-- HOW IT WORKS-->
+    <section class="how-it-works band">
+        <div class="row">
+            <div class="small-12 columns">
+                <h2 class="light text-center">Real training. Real results.</h2>
+            </div>
+        </div>
+
+        <div class="row">
+            <div class="small-12 large-10 large-centered columns">
+                <div class="row">
+                    <div class="large-5 columns">
+                        <div class="">
+                            <img src="//s.pluralsight.com/sc/img/home/discussions-v3.png" width="100%" />
+                        </div>
+                    </div>
+                    <div class="large-6 columns">
+                        <div class="verticalcenterparent">
+                            <h3>Learn from experts.<br />Get the answers you need.</h3>
+                            <p>We deliver world-class training that’s easy to comprehend and quick to learn. That’s the beauty of being taught by the best. Our course authors are an elite group of tech and creative professionals, innovators and leaders. You know who they are. As a subscriber, we connect you with authors through discussion boards for ongoing, real-time learning.</p>
+                        </div>
+                    </div>
+                </div>
+                <div class="row">
+                    <div class="large-5 push-7 columns">
+                        <div class="feature-image">
+                            <img src="//s.pluralsight.com/sc/img/home/video-v3.png" width="100%" />
+                        </div>
+                    </div>
+                    <div class="large-6 pull-6 columns">
+                        <div class="verticalcenterparent">
+                            <h3>Download exercise files to practice while you watch.</h3>
+                            <p>There’s no fluff here. Our courses give you the experience and skills you need to succeed on the job and grow your career. With our exercise files, you can follow along with the video to practice applying your new skills.</p>
+                        </div>
+                    </div>
+                </div>
+                <div class="row">
+                    <div class="large-5 columns">
+                        <div class="feature-image">
+                            <img src="//s.pluralsight.com/sc/img/home/test-v3.png" width="100%" />
+                        </div>
+                    </div>
+                    <div class="large-6 columns">
+                        <div class="verticalcenterparent">
+                            <h3>Assess your skills.<br />Build your transcript.</h3>
+                            <p class="">How can you tell our training works? Because we show you real results in real time. Our pre- and post-course assessments track your progress. When you successfully complete a course, we provide you with a certificate and an official transcript to validate and build your online resume.</p>
+                        </div>
+                    </div>
+                </div>
+
+            </div>
+        </div>
+
+    </section>
+
+    <section class="light-gray-bg">
+        <div class="row">
+            <div class="small-12 columns push-up">
+                <h2 class="light text-center">Awards & recognition</h2>
+                <div class="award-logos text-center">
+                    <img src="//s.pluralsight.com/sc/img/awardlogos/aba-best-training-site-v1.png" />
+                    <img src="//s.pluralsight.com/sc/img/awardlogos/best-companies-v1.png" />
+                    <img src="//s.pluralsight.com/sc/img/awardlogos/utah-construction-and-design-v1.png" />
+                    <img src="//s.pluralsight.com/sc/img/awardlogos/inc-5000-v1.png" />
+                    <img src="//s.pluralsight.com/sc/img/awardlogos/technology-fast-500-v1.png" />
+                    <img src="//s.pluralsight.com/sc/img/awardlogos/fast-50-v1.png" />
+                </div>
+            </div>
+        </div>
+        <hr class="show-for-small no-margin-bottom" />
+    </section>
+   
+    <div class="row desktop-devices">
+        <div class="small-12 columns">
+            <h2 class="light text-center push-up">Training 24/7 on any device</h2>
+            <h4 class="light text-center  push-down hide-for-small">Say goodbye to classroom-based training that takes you out of the office. We empower you to train on your time, when it’s convenient, and on any device.</h4>
+        </div>
+    </div>
+
+    <!-- MOBILE APPS -->
+    <section class="light-gray-bg band">
+
+        <div class="devices row">
+            <div class="large-4 columns">
+                <img src="//s.pluralsight.com/sc/img/home/laptop-v2.png" />
+                <div class="panel">
+                    <h3>Offline player</h3>
+                    <ul class="inline-list links">
+                        <li><a href="//www.pluralsight.com/training/products/offlineplayer"><i class="fi-social-apple"></i></a></li>
+                        <li><a href="//www.pluralsight.com/training/products/offlineplayer"><i class="fi-social-windows"></i></a></li>
+                    </ul>
+                </div>
+            </div>
+            <div class="large-4 columns">
+
+                <img src="//s.pluralsight.com/sc/img/home/tablets-v2.png" />
+                <div class="panel">
+                    <h3>Tablets</h3>
+                    <ul class="inline-list links">
+                        <li><a href="http://itunes.apple.com/us/app/pluralsight/id431748264?mt=8#"><i class="fi-social-apple"></i></a></li>
+                        <li><a href="https://play.google.com/store/apps/details?id=com.pluralsight"><i class="fi-social-android"></i></a></li>
+                    </ul>
+                </div>
+            </div>
+            <div class="large-4 columns">
+
+                <img src="//s.pluralsight.com/sc/img/home/phones-v2.png" />
+                <div class="panel">
+                    <h3>Phones</h3>
+                    <ul class="inline-list links">
+                        <li><a href="http://itunes.apple.com/us/app/pluralsight/id431748264?mt=8#"><i class="fi-social-apple"></i></a></li>
+                        <li><a href="https://play.google.com/store/apps/details?id=com.pluralsight"><i class="fi-social-android"></i></a></li>
+                        <li><a href="http://www.windowsphone.com/en-us/store/app/pluralsight/f2910407-9464-e011-81d2-78e7d1fa76f8"><i class="fi-social-windows"></i></a></li>
+                    </ul>
+                </div>
+            </div>
+        </div>
+
+    </section>
+
+    <section class="orange-bg">
+        <div class="row">
+            <div class="large-12 columns">
+                <div class="cta text-center">
+                    <h4 class="">Get started with your 10-day free trial!</h4>
+                    <a href="//www.pluralsight.com/signup?ft=1" class="button ">Sign up now &rarr;</a>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- AT A GLANCE -->
+    <section class="slate-bg slate-cube-bg band">
+        <div class="row">
+            <div class="large-12 columns">
+    <h2 class="light text-center push-down">Our stats at a glance</h2>
+    <ul class="stats-list large-block-grid-3 small-block-grid-2">
+        <li>
+            <h1 class="orange">
+                <i class="fi-book"></i>
+                <span>&nbsp;3,700+&nbsp;</span>
+                <small class="">Courses</small>
+            </h1>
+        </li>
+        <li>
+            <h1 class="green">
+                <i class="fi-video"></i>
+                <span>&nbsp;131,000&nbsp;</span>
+                <small class="">Video clips</small>
+            </h1>
+        </li>
+        <li>
+            <h1 class="teal">
+                <i class="fi-clock"></i>
+                <span>&nbsp;11,150&nbsp;</span>
+                <small class="">Hours of content</small>
+            </h1>
+        </li>
+        <li>
+            <h1 class="teal">
+                <i class="fi-torso-business"></i>
+                <span>&nbsp;700&nbsp;</span>
+                <small class="">Expert instructors</small>
+            </h1>
+        </li>
+        <li>
+            <h1 class="orange">
+                <i class="fi-torsos-all"></i>
+                <span>&nbsp;750,000&nbsp;</span>
+                <small class="">Learners</small>
+            </h1>
+        </li>
+        <li>
+            <h1 class="green">
+                <i class="fi-web"></i>
+                <span>&nbsp;150+&nbsp;</span>
+                <small class="">Countries with subscribers</small>
+            </h1>
+        </li>
+    </ul>
+</div>
+        </div>
+    </section>
+
+
+    <!-- SUCCESS STORIES -->
+    <section class="light-gray-bg band">
+
+        <div class="row">
+            <div class="large-12 columns">
+
+                <h2 class="light text-center">Success stories</h2>
+                <h4 class="light text-center push-down">We make success a commodity for customers worldwide.</h4>
+
+                <ul class="large-block-grid-4 small-block-grid-1">
+                    <li>
+                        <blockquote>
+                            <a href="https://twitter.com/nthonyChu/status/401400547942469632" target="_blank">
+                                Completing 80+ courses over 2 years helped me build great apps and get a job I love. Time to renew for year 3. Thx @pluralsight!
+                            </a>
+                        </blockquote>
+                        <div class="citation">
+                            Anthony Chu
+                            <div class="description">@nthonyChu</div>
+                        </div>
+                    </li>
+                    <li>
+                        <blockquote>
+                            <a href="https://twitter.com/SQLSuperGuru/status/399575084592943105" target="_blank">
+                                @StaciaMisner your @pluralsight course on #ssas
+                                fundamentals is #awesome. Thank you for the great training content.
+                            </a>
+                        </blockquote>
+                        <div class="citation">
+                            Sanil Mhatre
+                            <div class="description">@SQLSuperGuru</div>
+                        </div>
+                    </li>
+                    <li>
+                        <blockquote>
+                            <a href="https://twitter.com/SQLSuperGuru/status/399575084592943105" target="_blank">
+                                Passed the VCA-Cloud exam while watching football today.  Used @pluralsight's
+                                @ChrisWahl videos as my only study resource @VMwareEducation
+                            </a>
+                        </blockquote>
+                        <div class="citation">
+                            Eric Shanks
+                            <div class="description">@eric_shanks</div>
+                        </div>
+                    </li>
+                    <li>
+                        <blockquote>
+                            <a href="https://twitter.com/karolikl/status/408310192380473344" target="_blank">
+                                Can't get enough! It's come to the point where I'm about to watch tv, then reconsider and think: "Hm, I'll rather watch @pluralsight"
+                            </a>
+                        </blockquote>
+                        <div class="citation">
+                            Karoline Klever
+                            <div class="description">@karolikl</div>
+                        </div>
+                    </li>
+                </ul>
+
+            </div>
+        </div>
+
+        <hr class="push-down" />
+
+        
+<h2 class="light text-center">Around the web</h2>
+<h4 class="light text-center push-down">We’re stirring up all sorts of press.</h4>
+
+<div class="row push-down">
+    <div class="small-12 columns">
+        <ul class="logos large-block-grid-6 small-block-grid-2">
+            <li>
+                <img src="//s.pluralsight.com/sc/img/home/techcrunch-v2.png" />
+            </li>
+            <li>
+                <img src="//s.pluralsight.com/sc/img/home/all-things-d-v1.png" />
+            </li>
+            <li>
+                <img src="//s.pluralsight.com/sc/img/home/venturebeat-v1.png" />
+            </li>
+            <li>
+                <img src="//s.pluralsight.com/sc/img/home/gigaom-v1.png" />
+            </li>
+            <li>
+                <img src="//s.pluralsight.com/sc/img/home/pandodaily-v1.png" />
+            </li>
+            <li>
+                <img src="//s.pluralsight.com/sc/img/home/computer-world-v1.jpg" />
+            </li>
+        </ul>
+    </div>
+</div>
+
+    </section>
+
+    <!-- BUSINESS CALLOUT -->
+    <section class="business band">
+        <div class="row">
+            <div class="large-12 columns text-center">
+                <h2 class="light">Real training for real businesses</h2>
+                <a class="button big-bump-top" href="//www.pluralsight.com/business">See business plans &rarr;</a>
+            </div>
+        </div>
+    </section>
+
+</div>
+
+
+    </div>
+    <footer class="footer-site" ng-controller="FooterController">
+        <div class="row">
+            <!-- MAIN FOOTER STUFF -->
+            <div class="large-4 columns">
+                <img src="//s.pluralsight.com/sc/img/layout/logo-grey-v4.png" class="secondary-logo" />
+                <p>
+                    Our mission is to publish high quality online training courses for professional developers, IT admins and creative artists. Every day.
+                </p>
+                <!-- facebook -->
+                <a class="facebook social button" href="http://www.facebook.com/pluralsight" target="_blank" rel="nofollow">
+                    <span class="icon">
+                        <i class="social fi-social-facebook"></i>
+                    </span>
+                    Facebook
+                    <span ng-class="{'number': social.likes != undefined}" ng-cloak>{{social.likes | number}}</span>
+                </a>
+                <!-- twitter -->
+                <a class="twitter social button" href="http://twitter.com/pluralsight" target="_blank" rel="nofollow">
+                    <span class="icon">
+                        <i class="social fi-social-twitter"></i>
+                    </span>
+                    Twitter
+                    <span ng-class="{'number': social.followers != undefined}" ng-cloak>{{social.followers | number}}</span>
+                </a>
+                <!-- google+ -->
+                <a class="google social button" href="http://plus.google.com/+pluralsight" target="_blank" rel="nofollow">
+                    <span class="icon">
+                        <i class="social fi-social-google-plus"></i>
+                    </span>
+                    Google+
+                    <span ng-class="{'number': social.plusOnes != undefined}" ng-cloak>{{social.plusOnes | number}}</span>
+                </a>
+                <!-- newsletter -->
+                <p>Subscribe to our newsletter for weekly updates.</p>
+                <div class="row collapse signup-form">
+
+                    <div ng-show="emailSubmitted" class="newsletter-signup-success-message" ng-cloak>
+                        Thank you for subscribing.
+                    </div>
+                    <div ng-show="newsletterSignupError" class="alert radius alert-box" ng-cloak>
+                        There was an error. Please try again.
+                    </div>
+                    <form method="POST" ng-hide="emailSubmitted" ng-controller="ValidationController" name="newsletterSignupForm" novalidate>
+                        <div class="small-8 columns">
+                            <label ng-class="labelClass('newsletterSignupForm', 'newsletterEmail')">
+                                <input type="text" placeholder="Email" name="newsletterEmail" required ng-pattern="/^[a-zA-Z0-9&#39;._%+-]+@[a-zA-Z0-9-][a-zA-Z0-9.-]*\.[a-zA-Z]{2,63}$/" validation ng-model="newsletterEmail" ng-focus="newsletterEmailFocus()" />
+                            </label>
+                        </div>
+                        <div class="small-4 columns">
+                            <button class="orange button postfix" ng-click="submitNewsletterSignUp(newsletterEmail)" ng-disabled="newsletterSignupForm.$invalid">Submit</button>
+                        </div>
+                    </form>
+                </div>
+            </div>
+            <!-- SITE MAP -->
+            <div class="large-7 large-offset-1 columns">
+                <div class="row">
+                    <div class="large-4 columns">
+                        <h5>Learn</h5>
+                        <ul class="side-nav">
+                            <li><a href="//www.pluralsight.com/tags">Browse Courses</a></li>
+                            <li><a href="http://blog.pluralsight.com/category/learning-paths">Learning Paths</a></li>
+                        </ul>
+                        <h5>Products</h5>
+                        <ul class="side-nav">
+                            <li><a href="//www.pluralsight.com/signup">Individual Plans</a></li>
+                            <li><a href="//www.pluralsight.com/business">Business Plans</a></li>
+                            <li><a href="//www.pluralsight.com/a/subscribe/step1?isTrial=True">Free Trial</a></li>
+                            <li><a href="//www.pluralsight.com/academic">Academic</a></li>
+                            <li><a href="//www.pluralsight.com/government">Government</a></li>
+                        </ul>
+                    </div>
+                    <div class="large-4 columns">
+                        <h5>Community</h5>
+                        <ul class="side-nav">
+                            <li><a href="//www.pluralsight.com/kids">Free Kids Courses</a></li>
+                            <li><a href="http://blog.pluralsight.com/">Official Blog</a></li>
+                            <li><a href="//www.pluralsight.com/studygroups">Study Groups</a></li>
+                            <li><a href="//www.pluralsight.com/sponsorships">UG &amp; Event Sponsorships</a></li>
+                        </ul>
+                        <h5>Support</h5>
+                        <ul class="side-nav">
+                            <li><a href="http://support.pluralsight.com" rel="nofollow">Ask Support a Question</a></li>
+                            <li><a href="http://support.pluralsight.com/forums/127919-new-course-suggestions" rel="nofollow">Suggest a Course</a></li>
+                            <li><a href="//www.pluralsight.com/training/support/uservoiceoutbound" rel="nofollow">Support &amp; Feedback</a></li>
+                            <li><a href="//www.pluralsight.com/training/support/knowledgebaseoutbound" rel="nofollow">Knowledge Base / FAQ</a></li>
+                            <li><a href="http://blog.pluralsight.com/terms-of-use" rel="nofollow">Terms of Use</a></li>
+                            <li><a href="//www.pluralsight.com/privacypolicy" rel="nofollow">Privacy Policy</a></li>
+                        </ul>
+                    </div>
+                    <div class="large-4 columns">
+                        <h5>Features</h5>
+                        <ul class="side-nav">
+                            <li><a href="//www.pluralsight.com/training/products/mobileplayers">Mobile Apps</a></li>
+                            <li><a href="//www.pluralsight.com/training/products/offlineviewing">Offline Viewing</a></li>
+                        </ul>
+                        <h5>About</h5>
+                        <ul class="side-nav">
+                            <li><a href="//www.pluralsight.com/contact">Contact Us</a></li>
+                            <li><a href="http://blog.pluralsight.com/press">Press Center</a></li>
+                            <li><a href="//www.pluralsight.com/about">About Us</a></li>
+                            <li><a href="//www.pluralsight.com/authors">Authors</a></li>
+                            <li><a href="//www.pluralsight.com/teach">Teach</a></li>
+                            <li><a href="//www.pluralsight.com/careers">Jobs at Pluralsight</a></li>
+                        </ul>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </footer>
+
+    <script src="//s.pluralsight.com/sc/js/bundled/vendor-63378b78.jgz"></script>
+    <script src="//s.pluralsight.com/sc/js/bundled/app-6c2445c3.jgz"></script>
+
+
+    <script type="text/javascript">
+        pluralsightModule.factory('baseUrls', function() {
+                return {
+                    dataUrl: '/data',
+                    mvcUrl: '//www.pluralsight.com/a',
+                    mainWebUrl: '//www.pluralsight.com/training',
+                    staticCdnUrl: 'http://s.pluralsight.com',
+                    staticUrl: '//www.pluralsight.com',
+                    contentUrl: '//s.pluralsight.com/sc',
+                    learnerExperienceBaseUrl: 'http://stage.pluralsight.com/library'
+                };
+            })
+            .factory('validationService', function() {
+                return {
+                    emailAddressPattern: '/^[a-zA-Z0-9&#39;._%+-]+@[a-zA-Z0-9-][a-zA-Z0-9.-]*\.[a-zA-Z]{2,63}$/'
+                };
+            })
+            .factory('settingsProvider', function($resource) {
+                return {
+                    featureToggleLinkedIn: String(true) == 'true',
+                    featureToggleAnnualFreeTrial: String(false) == 'true',
+                    featureToggleShowMultiplePlaylists: String(true) == 'true',
+                };
+            })
+            .factory('imageUrlsService', function() {
+                return {
+                    arrowDownInactiveUrl: "//s.pluralsight.com/sc/img/glyphs/arrow-down-inactive-v1.png",
+                    arrowUpInactiveUrl: "//s.pluralsight.com/sc/img/glyphs/arrow-up-inactive-v1.png",
+                    arrowDownActiveUrl: "//s.pluralsight.com/sc/img/glyphs/arrow-down-active-v1.png",
+                    arrowUpActiveUrl: "//s.pluralsight.com/sc/img/glyphs/arrow-up-active-v1.png",
+                    deleteUrl: "//s.pluralsight.com/sc/img/glyphs/delete-v1.png",
+                    arrowUpImageUrl: "//s.pluralsight.com/sc/img/glyphs/arrow-up-v1.png",
+                    arrowDownImageUrl: "//s.pluralsight.com/sc/img/glyphs/arrow-down-v1.png",
+                    beginnerLevelImage: "//s.pluralsight.com/sc/img/course/difficulty_level-01-v3.png",
+                    intermediateLevelImage: "//s.pluralsight.com/sc/img/course/difficulty_level-02-v3.png",
+                    advancedLevelImage: "//s.pluralsight.com/sc/img/course/difficulty_level-03-v3.png"
+                }
+            });
+
+
+    </script>
+
+    <script type="text/javascript">
+        var hero = $(".hero") || $("header");
+        hero.after('<div class="global-message-bar" ng-cloak ng-controller="MessageBarController" ng-show="hasMessage()"><div class="row"><div class="small-12 columns"><a href="#" ng-click="clearMessage()" class="close-message-bar"><i class="fi-x"></i></a><span class="message-text">{{getMessage()}}</span></div></div></div>');
+    </script>
+
+    
+    <script src="//s.pluralsight.com/sc/js/shared/html5-mode-router-078da46f.js"></script>
+    <script>
+        $(document).ready(function () {
+            var resize = function () {
+                var tealSquare = $('.teal-bg-transparent')[0];
+                var greenSquare = $('.green-br-transparent')[0];
+                if (window.innerWidth > 767) {
+                    var height = tealSquare.getBoundingClientRect().height;
+
+                    greenSquare.style.height = height + "px";
+                } else {
+                    greenSquare.style.height = "";
+                }
+            };
+
+            setTimeout(resize, 500);
+            $(window).on("resize", resize);
+
+            if (!$.cookie("newSiteVisited")) {
+                $("#welcome-to-beta").foundation('reveal', 'open');
+                $.cookie("newSiteVisited", "true", { expires: 180 });
+            }
+        });
+    </script>
+
+</body>
+</html>
